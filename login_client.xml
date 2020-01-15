@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Suite" parallel = "tests">
+   <test name = "ChromeTest">
+   <parameter name="chromeDriver" value="webdriver.chrome.driver" />
+   <parameter name="chromePath" value="C:\\Users\\Ayandak\\Documents\\chromedriver.exe" />
+   <parameter name="url" value="http://newtours.demoaut.com/" />
+   <parameter name = "browser" value = "chrome" />
+      <classes>
+         <class name = "webautomationselenium.LoginMercuryToursClientTest" />
+      </classes>
+   </test>
+</suite>
